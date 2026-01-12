@@ -58,14 +58,14 @@ The IP is added to a blocklist file and displayed in the GUI
 This simulates how professional Intrusion Detection Systems identify DoS behavior.
 
 ▶️ How to Run
-1. Install dependencies
+1. Install dependencies: 
 sudo apt update
 sudo apt install python3-scapy python3-tk
 
-2. Run the detector
+2. Run the detector: 
 sudo python3 dos_detector_gui.py
 
-3. Run the shell script
+3. Run the shell script: 
 sudo watch -n 5 ./firewall_sync.sh
 
 Root privileges are required to capture packets.
